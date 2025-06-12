@@ -1,0 +1,69 @@
+/* Reset sencillo */
+* { margin:0; padding:0; box-sizing:border-box; }
+
+/* Tipografía y contenedor */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Header & Nav */
+.site-header {
+  background: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header .logo {
+  height: 40px;
+}
+.site-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* Features en home */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.features div {
+  background: #fff;
+  padding: 1rem;
+  flex: 1;
+  margin: 0 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Footer */
+.site-footer {
+  background: #fff;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+  margin-top: 2rem;
+}
